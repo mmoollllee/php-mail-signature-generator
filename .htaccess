@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Company Mail Signature Generator"
+AuthUserFile /var/www/fullpath/signature/.htpasswd
+Require valid-user
