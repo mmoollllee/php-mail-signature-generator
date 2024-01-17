@@ -16,3 +16,9 @@ Username / Password: `demo`
 6. Hate Mail Clients for their HTML & CSS support
 7. Send every employer, in need of a mail signature, the link and credentials to the generator.
 8. Show me how your mail signature looks! I'm happy to see working examples for beautiful mail signatures.
+
+## Further
+
+- [Webfonts for Mail](https://www.litmus.com/blog/the-ultimate-guide-to-web-fonts)
+- [Websafe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php)
+- 
