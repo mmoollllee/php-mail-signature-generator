@@ -5,7 +5,7 @@
 ## How To Use
 
 1. Upload this repo to your webserver. e.g. `example.com/signature`
-2. Edit .htaccess and .htpasswd or secure the path with with other techniques
+2. Edit .htaccess and .htpasswd or secure the path with with other techniques. In this demo credentials are `demo` for username and password.
 3. Edit `config.php`
 4. Place files to be selected as Banner in the public directory defined in `$files`
 5. Set Up your HTML Signature Template with inline css. Test it in different mail clients.
