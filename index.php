@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 	<link rel="icon" href="../favicon.ico">
 
-	<title>Email Signature Generator</title>
+	<title>Email Signature Generator Demo</title>
 
 	<link href="bootstrap.min.css" rel="stylesheet">
 
@@ -44,7 +44,7 @@
 				<div class="mb-3">
 					<input type="text" class="form-control" name="subtitle" placeholder="Your position"
 						value="<?php echo $_GET['subtitle']; ?>">
-					<small class="form-text text-muted">z.B. IT, Support,...</small>
+					<small class="form-text text-muted">e.g. IT, Support,...</small>
 				</div>
 			</div>
 			<div class=" col-12 col-md">
@@ -74,10 +74,10 @@
 			</div>
 
 			<?php
-				$banner = array_diff(scandir($files), array('..', '.'));
+				$banner = $files ? array_diff(scandir($files), array('..', '.')) : false;
 				$select = $_GET['banner'];
 				
-				if (!empty($banner)):
+				if ($banner && !empty($banner)):
 			?>
 
 			<div class="col-12 col-md">
